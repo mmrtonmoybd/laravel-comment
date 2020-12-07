@@ -1,0 +1,48 @@
+{
+    "name": "mmrtonmoybd/laravel-comment",
+    "type": "library",
+    "description": "A package for using multiply guards on laravel fortify",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "mmrtonmoybd"
+    ],
+    "authors": [
+        {
+            "name": "Moshiur Rahman Tonmoy",
+            "email": "rmedha037@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0",
+        "ext-json": "*",
+        "illuminate/support": "^8.0",
+        "illuminate/database": "^8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.3.3",
+        "orchestra/testbench": "^6.0",
+        "fakerphp/faker": "^1.9.1",
+        "scrutinizer/ocular": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mmrtonmoybd\\Comment\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "Mmrtonmoybd\\Comment\\LaravelCommentServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
