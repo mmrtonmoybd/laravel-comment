@@ -1,9 +1,8 @@
 <?php
 namespace Mmrtonmoybd\Comment;
 
-use Actuallymab\LaravelComment\Contracts\Commentable;
 use Mmrtonmoybd\Comment\Contracts\Commentable;
-use Actuallymab\LaravelComment\Models\Comment;
+use Mmrtonmoybd\Comment\Models\Comment;
 use Illuminate\Database\Eloquent\Relations\MorphMany;
 
 trait CanComment
